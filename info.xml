@@ -1,0 +1,29 @@
+<mod>
+  <name>Merc's Drugs</name>
+  <author>TedDraws#0648 aka Mercenary</author>
+  <description>Adds in new contraband for ultimate trade satisfaction!
+version 0.8
+
+NOW WITH RESEARCH and CUSTOM ANIMATIONS!
+
+NEW CROPS
+-Papaver
+
+NEW ITEMS and RECIPES
+-Precursor
+-Raw Papaver
+-Steroids
+-Crystal
+-Gray Matter
+-Bennies
+
+NEW BUILDING
+-Drug lab
+
+  </description>
+  <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.14.1</v>
+  </gameVersions>
+  <modid>2657</modid>
+</mod>

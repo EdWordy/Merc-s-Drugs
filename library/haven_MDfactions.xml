@@ -1,0 +1,14 @@
+<data>
+
+	<Faction>
+	
+		<faction _annotation="Smugglers Guild" id="265700003" primaryColor="fc9338ff" secondaryColor="fafdffff" side="Smuggler">
+			<name tid="265700001" />
+			<desc />
+			<icon aid="faction01Symbol" />
+			<character bodyGenders="m,f" bodySets="1" collectionSet="2437" headGenders="m,f" headSets="1,2,3,4" />
+		</faction>
+	
+	</Faction>
+
+</data>

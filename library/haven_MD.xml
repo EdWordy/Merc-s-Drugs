@@ -1,0 +1,1006 @@
+<data>
+
+	<Element>
+	
+		<!-- Drug lab -->
+		
+		<me _annotation="Drug Lab" alternateY="false" costGroup="875" ec="4" mid="265703100" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="dLabFB3" flx="false" />
+								<r90 aid="dLabFB1" flx="false" />
+								<r180 aid="dLabBB7" flx="false" />
+								<r270 aid="dLabBB9" flx="false" />
+								<tasks>
+									<l dir="D7" fireEvent="83:3" gridOffX="0" gridOffY="-1" setStateInUse="false" task="StandWork" usage="Both">
+										<r0offset charOffX="0" charOffY="0" />
+										<r180offset charOffX="0" charOffY="0" />
+									</l>
+								</tasks>
+								<eventListener>
+									<events>
+										<l event="83:3" onEnter="true" onLeave="false">
+											<switchState to="InUse" />
+										</l>
+									</events>
+								</eventListener>
+							</l>
+							<l playAnimation="true" state="InUse">
+								<r0 aid="dLabFB3" flx="false" />
+								<r90 aid="dLabFB1" flx="false" />
+								<r180 aid="dLabBB7" flx="false" />
+								<r270 aid="dLabBB9" flx="false" />
+								<eventListener>
+									<events>
+										<l event="83:3" onEnter="false" onLeave="true">
+											<switchState to="Standby" />
+										</l>
+									</events>
+								</eventListener>
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="itemFabricatorFB1Lights" flx="false" />
+							<r90 aid="null" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<produces>
+								<l advPowerUsage="1.0" basicPowerUsage="1.0" product="265703129" suction="false" valuePerSec="1">
+									<heat temp="Low" type="HeatTo" />
+								</l>
+							</produces>
+							<stateWatchdog autoproduce="false" />
+							<noiseAndComfort category="ObjectId" onlyWhenInuse="false">
+								<noise ignoreZoomLevel="false" noise="10.0">
+									<audio auid="null" />
+								</noise>
+								<radiusBeauty leisure="-10" radius="4" roomDrop="2" sleep="-20" work="-6" />
+							</noiseAndComfort>
+						</features>
+						<boxHatch boxX="23" boxY="6" flipR90="true" in="true" out="false" type2="false" x="23" y="6">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-15" boxY="2" x="-15" y="2" />
+						</boxHatch>
+						<commonPower />
+					</element>
+				</l>
+				<l eid="2" gridOffX="1" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="dLabFF3" flx="false" />
+								<r90 aid="dLabFF1" flx="false" />
+								<r180 aid="dLabBF7" flx="false" />
+								<r270 aid="dLabBF9" flx="false" />
+							</l>
+							<l playAnimation="true" state="InUse">
+								<r0 aid="dLabFF3" flx="false" />
+								<r90 aid="dLabFF1" flx="false" />
+								<r180 aid="dLabBF7" flx="false" />
+								<r270 aid="dLabBF9" flx="false" />
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="itemFabricatorFF1Lights" flx="false" />
+							<r90 aid="null" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<boxHatch boxX="18" boxY="3" flipR90="true" in="false" out="true" type2="false" x="18" y="3">
+							<activate activateOffX="0" activateOffY="-1" />
+						</boxHatch>
+					</element>
+				</l>
+			</data>
+			<linked>
+				<l damageGroup="0" eid="4" gridOffX="1" gridOffY="-1" id="899" layer="0" rot="R0" />
+			</linked>
+			<events>
+				<l eid="3" name="work" weid="0" />
+			</events>
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="6" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="20" rep="875">
+							<customPrice>
+								<l _annotation="Techblock" elementId="930" howMuch="2" />
+								<l _annotation="Infrablock" elementId="162" howMuch="4" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="265703101" />
+				<desc tid="265703103" />
+				<guiIcon aid="drugLabIcon" />
+				<subCat id="1510" />
+				<restrictions>
+					<l gridX="1" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+					<l gridX="0" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="4" skill="Construction" />
+			</objectInfo>
+		</me>
+		
+
+	
+	</Element>
+
+	<Product>
+	
+		<!-- Contraband 01 product def -->
+
+		<product _annotation="Steroids" eid="265701100" elementType="Defined" item="265701112" type="Elementary">
+			<name tid="265701102" />
+			<desc tid="265701104" />
+			<GUIAnimation aid="contraband01Icon" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="25.0" vitamins="10" useByDefaultValue="0">
+			
+				<!--
+				This enables the ate human meat mood buff, m="1" for monstermeat
+				<foodtype h="1" />   
+				-->
+		
+			</edible>
+			<contraband>
+				<l side="Military" />
+			</contraband>
+		</product>
+		
+		<!-- Contraband 02 product def -->
+		
+		<product _annotation="Crystal" eid="265702100" elementType="Defined" item="265702112" type="Elementary">
+			<name tid="265702102" />
+			<desc tid="265702104" />
+			<GUIAnimation aid="contraband02Icon" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="25.0" vitamins="10" useByDefaultValue="0">
+			
+				<!--
+			
+				This enables the ate human meat mood buff, m="1" for monstermeat
+			
+				<foodtype h="1" />   
+			
+				-->
+			
+			</edible>
+			<contraband>
+				<l side="Military" />
+			</contraband>
+		</product>
+		
+				<!-- Contraband 03 product def -->
+		
+		<product _annotation="Gray Matter" eid="265707100" elementType="Defined" item="265707112" type="Elementary">
+			<name tid="265707102" />
+			<desc tid="265707104" />
+			<GUIAnimation aid="contraband03Icon" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="25.0" vitamins="10" useByDefaultValue="0">
+			
+				<!--
+			
+				This enables the ate human meat mood buff, m="1" for monstermeat
+			
+				<foodtype h="1" />   
+			
+				-->
+			
+			</edible>
+			<contraband>
+				<l side="Military" />
+			</contraband>
+		</product>
+		
+		<!-- Contraband 04 product def -->
+		
+		<product _annotation="Bennies" eid="265708100" elementType="Defined" item="265708112" type="Elementary">
+			<name tid="265708102" />
+			<desc tid="265708104" />
+			<GUIAnimation aid="contraband04Icon" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="25.0" vitamins="10" useByDefaultValue="0">
+			
+				<!--
+			
+				This enables the ate human meat mood buff, m="1" for monstermeat
+			
+				<foodtype h="1" />   
+			
+				-->
+			
+			</edible>
+			<contraband>
+				<l side="Military" />
+			</contraband>
+		</product>
+		
+		<!-- Precursor product def -->
+
+		<product _annotation="Precursor" eid="265703107" elementType="Defined" item="265708114" type="Elementary">
+			<name tid="265703010" />
+			<desc tid="265703012" />
+			<GUIAnimation aid="precursorIcon1" />
+			<sort p="16" s="2" />
+			<contraband>
+				<l side="Military" />
+			</contraband>
+		</product>
+		
+		<!-- Drug lab processes -->
+		
+		<!-- for use with drug lab -->
+		
+		<product _annotation="Chemicals to Precursor" composter="false" customPriority="-1" eid="265703109" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Chemicals" consumeEvery="2" element="176" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Precursor" element="265703107" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="4" skill="Industry">
+				<custom time="40" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<product _annotation="Precursor to Steroids" composter="false" customPriority="-1" eid="265703110" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Precursor" consumeEvery="2" element="265703107" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Steroids" element="265701100" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="3" skill="Medical">
+				<custom time="40" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<product _annotation="Precursor to Crystal" composter="false" customPriority="-1" eid="265703111" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Precursor" consumeEvery="2" element="265703107" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Crystal" element="265702100" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="2" skill="Medical">
+				<custom time="50" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<product _annotation="Raw Papaver to Gray Matter" composter="false" customPriority="-1" eid="265703112" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Raw Papaver" consumeEvery="1" element="265708400" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Gray Matter" element="265707100" howMuch="2" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="4" skill="Medical">
+				<custom time="50" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<product _annotation="Precursor to Bennies" composter="false" customPriority="-1" eid="265703113" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Precursor" consumeEvery="5" element="265703107" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Bennies" element="265708100" howMuch="3" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="4" skill="Medical">
+				<custom time="50" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<!-- drug lab process category -->
+		
+		<product composter="false" customPriority="-1" eid="265703129" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="true" startOnly="false" type="Process">
+			<needs />
+			<products />
+			<list>
+				<processes>
+					<l _annotation="Chemicals to Precursor" process="265703109" />
+					<l _annotation="Precursor to Steroids" process="265703110" />
+					<l _annotation="Precursor to Crystal" process="265703111" />
+					<l _annotation="Raw Papaver to Gray Matter" process="265703112" />
+					<l _annotation="Precursor to Bennies" process="265703113" />
+				</processes>
+			</list>
+			<desc />
+		</product>
+		
+		<!-- Raw Papaver crop process -->
+		
+		<product _annotation="Raw Papaver crop" eid="265708200" type="Crop">
+			<name tid="265708300" />
+			<GUIAnimation aid="rawPapaverIcon" />
+			<stages>
+				<l co2PerMinute="15" h2oPerMinute="25" lightNeeded="Medium" maxTemp="313" minTemp="273" oxygenPerMinute="10" stage="1" time="1300">
+					<needs>
+						<l _annotation="Water" consumeEvery="3" element="16" howMuch="1" />
+						<l _annotation="Fertilizer" consumeEvery="10" element="2475" howMuch="1" />
+					</needs>
+					<anims>
+						<l dir="D1" type="Single" useFlipped="true">
+							<animation aid="rawPapaver1" />
+						</l>
+					</anims>
+				</l>
+				<l co2PerMinute="15" h2oPerMinute="25" lightNeeded="Medium" maxTemp="313" minTemp="273" oxygenPerMinute="10" stage="2" time="1300">
+					<tend penalty="-75" />
+					<anims>
+						<l dir="D1" type="Single" useFlipped="true">
+							<animation aid="rawPapaver2" />
+						</l>
+					</anims>
+				</l>
+				<l co2PerMinute="15" h2oPerMinute="25" lightNeeded="Medium" maxTemp="313" minTemp="273" oxygenPerMinute="10" stage="3" time="1300">
+					<tend penalty="-75" />
+					<needs>
+						<l _annotation="Water" consumeEvery="3" element="16" howMuch="1" />
+					</needs>
+					<anims>
+						<l dir="D1" type="Single" useFlipped="true">
+							<animation aid="rawPapaver3" />
+						</l>
+					</anims>
+				</l>
+				<l co2PerMinute="15" h2oPerMinute="25" lightNeeded="Medium" maxTemp="313" minTemp="273" oxygenPerMinute="10" stage="4" time="1300">
+					<tend penalty="-75" />
+					<anims>
+						<l dir="D1" type="Single" useFlipped="true">
+							<animation aid="rawPapaver4" />
+						</l>
+					</anims>
+				</l>
+				<l co2PerMinute="15" h2oPerMinute="25" lightNeeded="Medium" maxTemp="313" minTemp="273" oxygenPerMinute="10" stage="5" time="1">
+					<harvestable>
+						<products>
+							<l element="265708400" howMuch="4" produceEvery="1" />
+							<l element="71" howMuch="1" produceEvery="1" />
+						</products>
+					</harvestable>
+					<anims>
+						<l dir="D1" type="Single" useFlipped="true">
+							<animation aid="rawPapaver5" />
+						</l>
+					</anims>
+				</l>
+			</stages>
+			<plantingPenalty penalty="-50" />
+			<difficulty level="3" skill="Farming" />
+			<desc tid="62265708302" />
+		</product>
+
+
+		<!-- Raw Papaver -->
+		
+		<product _annotation="Raw Papaver product" eid="265708400" elementType="Defined" item="265708501" type="Elementary">
+			<name tid="265708300" />
+			<GUIAnimation aid="rawPapaverIcon" />
+			<sort p="10" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="4.0" raw="true" sortOrder="2" toxins="25.0" useByDefaultValue="0" />
+			<desc tid="265708302" />
+		</product>
+
+	
+	</Product>
+		
+	<Item>
+	
+	<!-- Contraband 01 item and anims -->
+	
+		<item _annotation="Steroids item" eid="265701111" handness="TwoHand" mid="265701112">
+			<name tid="265701102" />
+			<desc tid="265701104" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsFlip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01Drugs" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsSide" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="crate01DrugsSlide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+		
+		<!-- Contraband 02 item and anims -->
+		
+		<item _annotation="Crystal item" eid="265702111" handness="TwoHand" mid="265702112">
+			<name tid="265702102" />
+			<desc tid="265702104" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsFlip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01Drugs" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsSide" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="crate01DrugsSlide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+		
+		<!-- Contraband 03 item and anims -->
+		
+		<item _annotation="Gray Matter item" eid="265707111" handness="TwoHand" mid="265707112">
+			<name tid="265707102" />
+			<desc tid="265707104" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsFlip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01Drugs" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsSide" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="crate01DrugsSlide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+	
+		<!-- Contraband 04 item and anims -->
+		
+		<item _annotation="Bennies item" eid="265708111" handness="TwoHand" mid="265708112">
+			<name tid="265708102" />
+			<desc tid="265708104" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsFlip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01Drugs" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsDown" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01DrugsSide" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="crate01DrugsSlide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+	
+		<!-- Raw Papaver item and anims -->
+		
+		<item _annotation="Raw Papaver item" eid="265708500" handness="TwoHand" mid="265708501">
+			<name tid="265708300" />
+			<desc tid="265708302" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01PapaverFlip" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01Papaver" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01PapaverDown" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01PapaverDown" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="crate01PapaverSide" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="crate01PapaverSlide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+		
+		<!-- Precursor item and anims -->
+		
+		<item _annotation="Precursor item" eid="265708113" handness="TwoHand" mid="265708114">
+			<name tid="265703010" />
+			<desc tid="265703012" />
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="chemicalBarrel01" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="chemicalBarrel01" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="chemicalBarrel01" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="chemicalBarrel01" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="chemicalBarrel01" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="chemicalBarrel01Slide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>
+		
+	
+	</Item>	
+	
+	<CharacterCondition>
+	
+		<!-- Test Contraband 01 condition -->
+	
+		<condition _annotation="Did Steroids" addToLog="true" color="Auto" displayOnScreen="false" id="265701110" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265701106" />
+			<desc tid="265701108" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="25.0" />
+			</recoverability>
+			<moodAffects>
+				<l change="20" type="Mood" />
+				<l change="-10" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="1" type="AccidentRate" />
+				<l change="2" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="10">
+					<!-- Nausea -->
+					<condition condition="2664" />
+				</l>
+			</spawns>
+		</condition>
+		
+		<!-- Test Contraband 02 condition -->
+	
+		<condition _annotation="Did Crystal" addToLog="true" color="Auto" displayOnScreen="false" id="265702110" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265702106" />
+			<desc tid="265702108" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="25.0" />
+			</recoverability>
+			<moodAffects>
+				<l change="30" type="Mood" />
+				<l change="-10" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="10" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="15">
+					<!-- Nausea -->
+					<condition condition="2664" />
+				</l>
+			</spawns>
+		</condition>
+		
+		<!-- Test Contraband 03 condition -->
+	
+		<condition _annotation="Did Gray Matter" addToLog="true" color="Auto" displayOnScreen="false" id="265707110" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265707106" />
+			<desc tid="265707108" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="25.0" />
+			</recoverability>
+			<moodAffects>
+				<l change="30" type="Mood" />
+				<l change="-10" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="10" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="25">
+					<!-- Nausea -->
+					<condition condition="2664" />
+				</l>
+			</spawns>
+		</condition>
+		
+		<!-- Test Contraband 04 condition -->
+	
+		<condition _annotation="Did Bennies" addToLog="true" color="Auto" displayOnScreen="false" id="265708110" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265708106" />
+			<desc tid="265708108" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="25.0" />
+			</recoverability>
+			<moodAffects>
+				<l change="30" type="Mood" />
+				<l change="-10" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="10" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="5">
+					<!-- Nausea -->
+					<condition condition="2664" />
+				</l>
+			</spawns>
+		</condition>
+		
+				
+		<!-- Addiction condition -->
+		
+		<condition _annotation="Addiction" addToLog="true" color="Auto" displayOnScreen="false" id="265704100" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265704102" />
+			<desc tid="265704104" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="50.0" />
+				<fixedByRes _annotation="Medical Supplies" consumeEvery="1" element="2053" howMuch="1" />
+			</recoverability>
+			<moodAffects>
+				<l change="-10" type="Mood" />
+				<l change="-5" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="-5" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="50">
+					<!-- Nausea -->
+					<condition condition="2664" />
+				</l>
+			</spawns>
+		</condition>
+		
+				<!-- Paranoia condition -->
+		
+		<condition _annotation="Paranoia" addToLog="true" color="Auto" displayOnScreen="false" id="265705100" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265705102" />
+			<desc tid="265705104" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="25.0" />
+				<fixedByRes _annotation="Medical Supplies" consumeEvery="2" element="2053" howMuch="1" />
+			</recoverability>
+			<moodAffects>
+				<l change="-10" type="Mood" />
+				<l change="-5" type="Safety" />
+				<l change="-15" type="Social" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="-3" type="WorkSpeed" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="25">
+					<!-- Addiction -->
+					<condition condition="265704100" />
+				</l>
+			</spawns>
+		</condition>
+		
+	</CharacterCondition>
+	
+	<TradingValues>
+	
+		<trade id="2">
+		
+			<!-- Contraband 01 trade values -->
+		
+			<t _annotation="Steroids" availability="2" buyZeroPoint="50" defBuyDim="75" defHoldBack="0" defOfferBuyDim="35" desirability="60" eid="265701112" maxPrice="500">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="2" buyValue="60" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Slaver" />
+					<l availability="2" buyValue="100" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="250" side="Smuggler" />
+				</desires>
+			</t>
+		
+			<!-- Contraband 02 trade values -->
+		
+			<t _annotation="Crystal" availability="1" buyZeroPoint="25" defBuyDim="100" defHoldBack="0" defOfferBuyDim="25" desirability="75" eid="265702112" maxPrice="600">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="3" buyValue="100" desirability="10" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Slaver" />
+					<l availability="3" buyValue="75" desirability="15" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="350" side="Smuggler" />
+				</desires>
+			</t>
+			
+			<!-- Contraband 03 trade values -->
+		
+			<t _annotation="Gray Matter" availability="1" buyZeroPoint="25" defBuyDim="100" defHoldBack="0" defOfferBuyDim="25" desirability="75" eid="265707112" maxPrice="100">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="3" buyValue="100" desirability="20" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Slaver" />
+					<l availability="3" buyValue="75" desirability="10" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Smuggler" />
+				</desires>
+			</t>
+		
+			<!-- Contraband 04 trade values -->
+		
+			<t _annotation="Bennies" availability="3" buyZeroPoint="10" defBuyDim="50" defHoldBack="0" defOfferBuyDim="20" desirability="40" eid="265708112" maxPrice="100">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Slaver" />
+					<l availability="2" buyValue="100" desirability="5" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Smuggler" />
+				</desires>
+			</t>
+			
+			<t _annotation="Precursor" availability="1" buyZeroPoint="10" defBuyDim="50" defHoldBack="0" defOfferBuyDim="20" desirability="40" eid="265708114" maxPrice="250">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Slaver" />
+					<l availability="2" buyValue="100" desirability="5" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Smuggler" />
+				</desires>
+			</t>
+			
+			
+			<t _annotation="Raw Papaver" availability="3" buyZeroPoint="10" defBuyDim="50" defHoldBack="0" defOfferBuyDim="20" desirability="40" eid="265708501" maxPrice="150">
+				<desires>
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Pirate" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Merchant" />
+					<l availability="0" buyValue="50" desirability="0" dontBuy="true" dontSell="true" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="100" side="Military" />
+					<l availability="2" buyValue="50" desirability="2" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="200" side="Slaver" />
+					<l availability="2" buyValue="100" desirability="5" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="25" overrideHoldBack="false" sellValue="150" side="Smuggler" />
+				</desires>
+			</t>
+		
+		</trade>
+	
+	</TradingValues>
+	
+	<Tech>
+	
+		<!-- Drug Lab research def -->
+	
+		<tech _annotation="Drug Lab" hidden="false" id="265706102" sizeX="12" sizeY="4" tidC="0">
+			<name tid="265706103" />
+			<desc tid="265706105" />
+			<stages>
+				<l stage="1">
+					<workbench>
+					
+						<l difficulty="3" itemId="265708400" taskId="1" tasksToDo="3" type="Experiment">
+							<accidents>
+								<l accidentId="3086" rarityGroup="Common" />
+								<l accidentId="3087" rarityGroup="Medium" />
+								<l accidentId="3088" rarityGroup="Rare" />
+							</accidents>
+						</l>
+						<l difficulty="4" itemId="265703107" taskId="2" tasksToDo="1" type="Experiment">
+							<accidents>
+								<l accidentId="3086" rarityGroup="Common" />
+								<l accidentId="3087" rarityGroup="Medium" />
+								<l accidentId="3088" rarityGroup="Rare" />
+								<l accidentId="3139" rarityGroup="Rare" />
+								<l accidentId="3138" rarityGroup="Rare" />
+							</accidents>
+						</l>
+					</workbench>
+				</l>
+				<l stage="2">
+					<labPoints level1="140" level2="80" level3="25" />
+				</l>
+			</stages>
+			<unlocks>
+				<l buildingId="265703100" type="Building" />
+			</unlocks>
+		</tech>
+	
+	</Tech>
+	
+	<TechTree>
+	
+			<!-- Altered tech tree (additional label category) -->
+	
+			<tree id="2535" sizeX="1500" sizeY="2050">
+			<items>
+				<i _annotation="Scanner" tid="2532" x="29" y="165" />
+				<i _annotation="Shield Generator" tid="2533" x="29" y="171" />
+				<i _annotation="" tid="2629" x="78" y="22" />
+				<i _annotation="Artificial meat" tid="2628" x="53" y="16" />
+				<i _annotation="Autopsy Table" tid="2539" x="11" y="16" />
+				<i _annotation="Medical Bed" tid="2559" x="5" y="52" />
+				<i _annotation="Hypersleep Chamber" tid="2577" x="5" y="46" />
+				<i _annotation="Item Fabricator" tid="2569" x="5" y="84" />
+				<i _annotation="Micro-Weaver" tid="2570" x="11" y="108" />
+				<i _annotation="Assembler" tid="2571" x="32" y="114" />
+				<i _annotation="Industry 01" tid="3128" x="5" y="120" />
+				<i _annotation="Advanced Assembler" tid="2575" x="53" y="114" />
+				<i _annotation="Energy Refinery" tid="2572" x="11" y="97" />
+				<i _annotation="Chemical Refinery" tid="2573" x="11" y="103" />
+				<i _annotation="Composter" tid="2576" x="32" y="16" />
+				<i _annotation="Power Capacity Node" tid="2568" x="5" y="154" />
+				<i _annotation="Solar Panel" tid="2565" x="29" y="157" />
+				<i _annotation="X2 Power Generator" tid="2566" x="53" y="151" />
+				<i _annotation="X3 Power Generator" tid="2567" x="77" y="151" />
+				<i _annotation="Arcade Machine" tid="2563" x="29" y="35" />
+				<i _annotation="Jukebox" tid="2564" x="5" y="35" />
+				<i _annotation="" tid="2630" x="78" y="10" />
+				<i _annotation="Research Lab" tid="3114" x="5" y="198" />
+				<i _annotation="Navigation console" tid="3119" x="5" y="187" />
+				<i _annotation="Advanced Nutrition" tid="2626" x="47" y="22" />
+				<i _annotation="Industry 02" tid="3129" x="26" y="120" />
+				<i _annotation="Salvage Robot Station" tid="3025" x="11" y="129" />
+				<i _annotation="Optronics Fabricator" tid="2694" x="32" y="108" />
+				<i _annotation="Research Workbench" tid="3115" x="29" y="198" />
+				<i _annotation="Weapons console" tid="2589" x="5" y="179" />
+				<i _annotation="Shields console" tid="2590" x="5" y="171" />
+				<i _annotation="Rocket Turret" tid="2591" x="29" y="182" />
+				<i _annotation="Energy Turret" tid="2592" x="29" y="176" />
+				<i _annotation="X1 Power Generator" tid="2594" x="29" y="151" />
+				<i _annotation="X1 Hyperdrive" tid="2595" x="29" y="187" />
+				<i _annotation="" tid="2596" x="53" y="187" />
+				<i _annotation="" tid="2597" x="77" y="114" />
+				<i _annotation="" tid="2598" x="53" y="178" />
+				<i _annotation="" tid="2599" x="77" y="176" />
+				<i _annotation="" tid="2600" x="53" y="174" />
+				<i _annotation="Targeting Jammer" tid="2601" x="53" y="168" />
+				<i _annotation="" tid="2602" x="53" y="85" />
+				<i _annotation="" tid="2604" x="77" y="89" />
+				<i _annotation="" tid="2605" x="77" y="82" />
+				<i _annotation="" tid="2606" x="93" y="85" />
+				<i _annotation="" tid="2607" x="54" y="50" />
+				<i _annotation="" tid="2609" x="78" y="55" />
+				<i _annotation="" tid="2610" x="78" y="50" />
+				<i _annotation="" tid="2611" x="78" y="45" />
+				<i _annotation="Metal Refinery" tid="2612" x="11" y="114" />
+				<i _annotation="" tid="2613" x="54" y="35" />
+				<i _annotation="" tid="2614" x="78" y="35" />
+				<i _annotation="Logistics Robot Station" tid="3024" x="11" y="135" />
+				<i _annotation="Enslavement Facility" tid="2847" x="29" y="84" />
+				<i _annotation="" tid="2617" x="32" y="141" />
+				<i _annotation="Research Experiment Table" tid="3116" x="53" y="198" />
+				<i _annotation="Fibers" tid="2619" x="11" y="10" />
+				<i _annotation="" tid="2622" x="29" y="89" />
+				<i _annotation="Botany" tid="2623" x="5" y="22" />
+				<i _annotation="Operations console" tid="3122" x="5" y="165" />
+				<i _annotation="Crawler" tid="3124" x="5" y="71" />
+				<i _annotation="Hauler" tid="3125" x="5" y="65" />
+				<i _annotation="Robotics 01" tid="3127" x="5" y="141" />
+				<i _annotation="Botany 02" tid="3130" x="26" y="22" />
+			    <i _annotation="Drug Lab" tid="265706102" x="5" y="215" />
+			</items>
+			<links>
+				<l _fromName="Assembler" _toName="Advanced Assembler" fromId="2571" toId="2575" />
+				<l _fromName="Shield Generator" _toName="Targeting Jammer" fromId="2533" toId="2601" />
+				<l _fromName="Industry 02" _toName="Assembler" fromId="3129" toId="2571" />
+				<l _fromName="Shields console" _toName="Shield Generator" fromId="2590" toId="2533" />
+				<l _fromName="Industry 01" _toName="Micro-Weaver" fromId="3128" toId="2570" />
+				<l _fromName="Jukebox" _toName="Arcade Machine" fromId="2564" toId="2563" />
+				<l _fromName="Industry 01" _toName="Industry 02" fromId="3128" toId="3129" />
+				<l _fromName="Item Fabricator" _toName="Enslavement Facility" fromId="2569" toId="2847" />
+				<l _fromName="Navigation console" _toName="X1 Hyperdrive" fromId="3119" toId="2595" />
+				<l _fromName="Industry 02" _toName="Optronics Fabricator" fromId="3129" toId="2694" />
+				<l _fromName="Weapons console" _toName="Rocket Turret" fromId="2589" toId="2591" />
+				<l _fromName="Research Lab" _toName="Research Workbench" fromId="3114" toId="3115" />
+				<l _fromName="Weapons console" _toName="Energy Turret" fromId="2589" toId="2592" />
+				<l _fromName="Robotics 01" _toName="Logistics Robot Station" fromId="3127" toId="3024" />
+				<l _fromName="X1 Power Generator" _toName="X2 Power Generator" fromId="2594" toId="2566" />
+				<l _fromName="Robotics 01" _toName="Salvage Robot Station" fromId="3127" toId="3025" />
+				<l _fromName="X2 Power Generator" _toName="X3 Power Generator" fromId="2566" toId="2567" />
+				<l _fromName="Scanner" _toName="Targeting Jammer" fromId="2532" toId="2601" />
+				<l _fromName="Operations console" _toName="Scanner" fromId="3122" toId="2532" />
+				<l _fromName="Power Capacity Node" _toName="Solar Panel" fromId="2568" toId="2565" />
+				<l _fromName="Power Capacity Node" _toName="X1 Power Generator" fromId="2568" toId="2594" />
+				<l _fromName="Industry 01" _toName="Metal Refinery" fromId="3128" toId="2612" />
+				<l _fromName="Industry 01" _toName="Energy Refinery" fromId="3128" toId="2572" />
+				<l _fromName="Industry 01" _toName="Chemical Refinery" fromId="3128" toId="2573" />
+				<l _fromName="Botany" _toName="Botany 02" fromId="2623" toId="3130" />
+				<l _fromName="Botany" _toName="Autopsy Table" fromId="2623" toId="2539" />
+				<l _fromName="Botany" _toName="Fibers" fromId="2623" toId="2619" />
+				<l _fromName="Botany 02" _toName="Advanced Nutrition" fromId="3130" toId="2626" />
+				<l _fromName="Botany 02" _toName="Composter" fromId="3130" toId="2576" />
+				<l _fromName="Advanced Nutrition" _toName="Artificial meat" fromId="2626" toId="2628" />
+			</links>
+			<labels counter="11">
+				<l fontColor="b7dde5e5" lid="2" tid="4637" x="3" y="26">
+					<box color="1d3340be" offsetX="-1" offsetY="1" sizeX="104" sizeY="22" />
+				</l>
+				<l fontColor="b7dde5e5" lid="3" tid="4638" x="3" y="39">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="12" />
+				</l>
+				<l fontColor="b7dde5e5" lid="4" tid="4640" x="3" y="56">
+					<box color="1d3340be" offsetX="-1" offsetY="1" sizeX="104" sizeY="16" />
+				</l>
+				<l fontColor="b7dde5e5" lid="5" tid="4642" x="3" y="90">
+					<box color="1d3340be" offsetX="-1" offsetY="1" sizeX="104" sizeY="14" />
+				</l>
+				<l fontColor="b7dde5e5" lid="6" tid="4643" x="3" y="123">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="32" />
+				</l>
+				<l fontColor="b7dde5e5" lid="7" tid="4644" x="3" y="144">
+					<box color="1d3340be" offsetX="-1" offsetY="1" sizeX="104" sizeY="20" />
+				</l>
+				<l fontColor="b7dde5e5" lid="8" tid="4653" x="3" y="159">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="14" />
+				</l>
+				<l fontColor="b7dde5e5" lid="9" tid="4645" x="3" y="190">
+					<box color="1d3340be" offsetX="-1" offsetY="1" sizeX="104" sizeY="30" />
+				</l>
+				<l fontColor="b7dde5e5" lid="10" tid="4646" x="3" y="201">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="10" />
+				</l>
+				<l fontColor="b7dde5e5" lid="11" tid="4641" x="3" y="75">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="18" />
+				</l>
+				<l fontColor="b7dde5e5" lid="12" tid="265706100" x="3" y="220">
+					<box color="121e26be" offsetX="-1" offsetY="1" sizeX="104" sizeY="14" />
+				</l>
+			</labels>
+		</tree>
+	
+	</TechTree>
+</data>

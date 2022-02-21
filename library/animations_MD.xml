@@ -1,0 +1,478 @@
+<AllAnimations>
+
+	<animations>
+
+		<!-- Contraband 01 -->
+
+		<ba n="contraband01Icon" ks="1" id="265701001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700010" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+				<assetPos filename="265701000" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Contraband 02 -->
+
+		<ba n="contraband02Icon" ks="1" id="265702001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700010" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+				<assetPos filename="265702000" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Contraband 03 -->
+
+		<ba n="contraband03Icon" ks="1" id="265707001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700010" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+				<assetPos filename="265703000" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Contraband 04 -->
+
+		<ba n="contraband04Icon" ks="1" id="265708001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700010" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+				<assetPos filename="265704000" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<ba f="30" id="265705001" ks="1" n="precursorIcon1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700010" y="0" x="0" sy="1" sx="1" r="0" bi="0" vf="1:1"/>
+				<assetPos filename="265705000" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Drug lab icon -->
+		
+		<ba f="30" id="265703130" ks="1" n="drugLabIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265703131" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Drug Lab building positions -->
+		
+		<ba f="30" id="265703139" ks="1" n="dLabFB3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265703133" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-4" y="19" />
+			</items>
+		</ba>
+		<ba f="30" id="265703140" ks="1" n="dLabFB1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265703133" bi="0" r="0" sx="1" sy="1" vf="1:1" x="4" y="15" />
+			</items>
+		</ba>
+		<ba f="30" id="265703141" ks="1" n="dLabBB7">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-2" />
+				<assetPos filename="265703134" bi="0" r="0" sx="1" sy="1" vf="1:1" x="4" y="12" />
+			</items>
+		</ba>	
+		<ba f="30" id="265703142" ks="1" n="dLabBB9">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-2" />
+				<assetPos filename="265703134" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="14" />
+			</items>
+		</ba>		
+		
+		
+		<!-- Part 2 of building positions -->
+		
+		<ba f="30" id="265703135" ks="1" n="dLabFF3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265703132" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="25" />
+			</items>
+		</ba>
+		<ba f="30" id="265703136" ks="1" n="dLabFF1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265703132" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="25" />
+			</items>
+		</ba>
+		<ba f="30" id="265703137" ks="1" n="dLabBF7">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-2" />
+				<assetPos a="59" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-2" y="24" />
+			</items>
+		</ba>
+		<ba f="30" id="265703138" ks="1" n="dLabBF9">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="615" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="-2" />
+				<assetPos a="59" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-2" y="24" />
+			</items>
+		</ba>
+		
+		<!-- Smugglers Guild Icon -->
+		
+		<ba f="30" id="265700000" ks="1" n="faction01Symbol">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700005" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Drugs Crate animations -->
+		
+		<ba f="30" id="265703150" ks="1" n="crate01Drugs">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700012" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700011" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>
+		<ba f="30" id="265703151" ks="1" n="crate01DrugsSide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700014" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700013" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="5" />
+			</items>
+		</ba>
+		<ba f="30" id="265703152" ks="1" n="crate01DrugsDown">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700016" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700015" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>		
+		<ba f="30" id="265703153" ks="1" n="crate01DrugsFlip">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700012" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700011" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>		
+		<ba f="30" id="265703154" ks="1,2,3,4,5" n="crate01DrugsSlide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700017" bi="0" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="1" y="-4" />
+				<assetPos filename="265700018" bi="0" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="1" y="-4" />
+				<assetPos filename="265700019" bi="0" r="0" sx="1" sy="1" vf="1:0,4:1,5:0" x="1" y="-4" />
+				<assetPos filename="265700020" bi="0" r="0" sx="1" sy="1" vf="1:0,5:1" x="1" y="-4" />
+				<assetPos an="crate01Drugs" bi="0" l="0" r="0" se="1" sf="1" sx="1" sy="1" vf="1:1,2:0" x="3" y="-7" />
+			</items>
+		</ba>
+
+		<!-- Precursor anims -->
+		
+		<ba f="30" id="265703155" ks="1" n="chemicalBarrel01">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700021" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>		
+		<ba f="30" id="265703156" ks="1,2,3,4,5" n="chemicalBarrel01Slide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700022" bi="0" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="1" y="-4" />
+				<assetPos filename="265700023" bi="0" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="1" y="-4" />
+				<assetPos filename="265700024" bi="0" r="0" sx="1" sy="1" vf="1:0,4:1,5:0" x="1" y="-4" />
+				<assetPos filename="265700025" bi="0" r="0" sx="1" sy="1" vf="1:0,5:1" x="1" y="-4" />
+				<assetPos filename="265700021" bi="0" r="0" sx="1" sy="1" vf="1:1,2:0" x="1" y="-3" />
+			</items>
+		</ba>		
+		
+		<!-- Raw Papaver icon -->
+		
+		<ba f="30" id="265708600" ks="1" n="rawPapaverIcon">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708805" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Raw Papaver growing anims -->
+		
+		<ba f="30" id="265708601" ks="1" n="rawPapaver1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708800" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="-1" />
+			</items>
+		</ba>
+		<ba f="30" id="265708602" ks="1" n="rawPapaver2">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708801" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="0" />
+			</items>
+		</ba>
+		<ba f="30" id="265708603" ks="1" n="rawPapaver3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708802" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="2" />
+			</items>
+		</ba>
+		<ba f="30" id="265708604" ks="1" n="rawPapaver4">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708803" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="3" />
+			</items>
+		</ba>		
+		<ba f="30" id="265708605" ks="1" n="rawPapaver5">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265708804" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="0" />
+			</items>
+		</ba>
+
+		<!-- Raw Papaver Crate animations -->
+		
+		<ba f="30" id="265703150" ks="1" n="crate01Papaver">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700012" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700026" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>
+		<ba f="30" id="265703151" ks="1" n="crate01PapaverSide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700014" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700027" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="5" />
+			</items>
+		</ba>
+		<ba f="30" id="265703152" ks="1" n="crate01PapaverDown">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700016" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700028" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>		
+		<ba f="30" id="265703153" ks="1" n="crate01PapaverFlip">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="-1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700012" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+				<assetPos filename="265700026" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="6" />
+			</items>
+		</ba>		
+		<ba f="30" id="265703154" ks="1,2,3,4,5" n="crate01PapaverSlide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265700029" bi="0" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="1" y="-4" />
+				<assetPos filename="265700030" bi="0" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="1" y="-4" />
+				<assetPos filename="265700031" bi="0" r="0" sx="1" sy="1" vf="1:0,4:1,5:0" x="1" y="-4" />
+				<assetPos filename="265700032" bi="0" r="0" sx="1" sy="1" vf="1:0,5:1" x="1" y="-4" />
+				<assetPos an="crate01Papaver" bi="0" l="0" r="0" se="1" sf="1" sx="1" sy="1" vf="1:1,2:0" x="3" y="-7" />
+			</items>
+		</ba>
+
+
+	</animations>
+	
+</AllAnimations>

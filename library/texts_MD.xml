@@ -1,0 +1,146 @@
+<t>
+
+	<!-- Contraband 01 tooltips -->
+
+	<resource_contraband_01_name id="265701102" pid="265701103">
+		<EN>Steroids</EN>
+	</resource_contraband_01_name>
+	
+	<resource_contraband_01_desc id="265701104" pid="265701105">
+		<EN>A medical enchanment agent. Promotes healing and rapid recovery.</EN>
+	</resource_contraband_01_desc>
+	
+	<condition_did_contraband_01 id="265701106" pid="265701107">
+		<EN>Did Steroids</EN>
+	</condition_did_contraband_01>
+	
+	<condition_did_contraband_01_desc id="265701108" pid="265701109">
+		<EN>Ah yeah, that's the stuff baby. I feel so tough.</EN>
+	</condition_did_contraband_01_desc>
+	
+	<!-- Contraband 02 tooltips -->
+	
+	<resource_contraband_02_name id="265702102" pid="265702103">
+		<EN>Crystal</EN>
+	</resource_contraband_02_name>
+	
+	<resource_contraband_02_desc id="265702104" pid="265702105">
+		<EN>Worth tons but terribley addictive. Dramatically ncreases workspeed but at a higher cost of accidents.</EN>
+	</resource_contraband_02_desc>
+	
+	<condition_did_contraband_02 id="265702106" pid="265702107">
+		<EN>Did Crystal</EN>
+	</condition_did_contraband_02>
+	
+	<condition_did_contraband_02_desc id="265702108" pid="265702109">
+		<EN>I can't believe life has come to this, I feel so dirty and guilty...</EN>
+	</condition_did_contraband_02_desc>
+	
+		<!-- Contraband 03 tooltips -->
+	
+	<resource_contraband_03_name id="265707102" pid="265707103">
+		<EN>Gray Matter</EN>
+	</resource_contraband_03_name>
+	
+	<resource_contraband_03_desc id="265707104" pid="265707105">
+		<EN>Turns the mind to mush after a while. A powerful sedative.</EN>
+	</resource_contraband_03_desc>
+	
+	<condition_did_contraband_03 id="265707106" pid="265707107">
+		<EN>Did Gray Matter</EN>
+	</condition_did_contraband_03>
+	
+	<condition_did_contraband_03_desc id="265707108" pid="265707109">
+		<EN>I can't believe life has come to this, I feel so dirty and guilty...</EN>
+	</condition_did_contraband_03_desc>
+	
+	<!-- Contraband 04 tooltips -->
+	
+	<resource_contraband_04_name id="265708102" pid="265708103">
+		<EN>Bennies</EN>
+	</resource_contraband_04_name>
+	
+	<resource_contraband_04_desc id="265708104" pid="265708105">
+		<EN>All the rage among academic circles. Promotes learning and workspeed.</EN>
+	</resource_contraband_04_desc>
+	
+	<condition_did_contraband_04 id="265708106" pid="265708107">
+		<EN>Did Bennies</EN>
+	</condition_did_contraband_04>
+	
+	<condition_did_contraband_04_desc id="265707108" pid="265707109">
+		<EN>I feel so incredibley good! Wooo!</EN>
+	</condition_did_contraband_04_desc>
+	
+	<!-- Drug lab tooltips -->
+	
+	<object_drug_lab_name id="265703101" pid="265703102">
+		<EN>Drug Lab</EN>
+	</object_drug_lab_name>
+	
+	<object_drug_lab_desc id="265703103" pid="265703104">
+		<EN>This drug lab enables you to produce a wide variety of trade goods and consumables.</EN>
+	</object_drug_lab_desc>
+	
+	<!-- Addiction tooltips -->
+	
+	<condition_addiction_name id="265704102" pid="265704103">
+		<EN>Addiction</EN>
+	</condition_addiction_name>
+	
+	<condition_addiction_desc id="265704104" pid="265704105">
+		<EN>I feel awful, maybe a little more...</EN>
+	</condition_addiction_desc>
+
+	<!-- Paranoia tooltips -->
+	
+	<condition_paranoia_name id="265705102" pid="265705103">
+		<EN>Paranoia</EN>
+	</condition_paranoia_name>
+	
+	<condition_paranoia_desc id="265705104" pid="265705105">
+		<EN>Hello? I feel weird, and no one seems to be able to help.</EN>
+	</condition_paranoia_desc>
+	
+	<!-- Smugglers Guild tooltips -->
+	
+	<faction_smuggler id="265700001" pid="265700002">
+		<EN>Smugglers Guild</EN>
+	</faction_smuggler>
+	
+	<!-- drug lab tech tree tooltips -->
+	
+	<research_tree_category_drugs id="265706100" pid="265706101">
+		<EN>Drugs</EN>
+	</research_tree_category_drugs>
+	
+	<research_tech_level_drug_lab_name id="265706103" pid="265706104">
+		<EN>Drug Lab</EN>
+	</research_tech_level_drug_lab_name>
+	
+	<research_tech_level_drug_lab_desc id="265706105" pid="265706106">
+		<EN>Unlocks the drug lab.</EN>
+	</research_tech_level_drug_lab_desc>
+	
+	<!-- Precursor tool tips -->
+	
+	<resource_precursor id="265703010" pid="265703011">
+		<EN>Precursor</EN>
+	</resource_precursor>
+	
+	<resource_precursor_desc id="265703012" pid="265703013">
+		<EN>A compound needed to produce narcotics, stimulants and other illicit substances.</EN>
+	</resource_precursor_desc>
+	
+	<!-- Papaver crop tooltips -->
+	
+	<crop_papaver id="265708300" pid="265708301">
+		<EN>Raw Papaver</EN>
+	</crop_papaver>
+	<crop_papaver_desc id="265708302" pid="265708303">
+		<EN>The fruits of papaver are an efficient pain medicication and are traded all over the galaxy for their medicinal properties.</EN>
+	</crop_papaver_desc>
+	
+	
+	
+</t>
