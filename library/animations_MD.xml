@@ -66,6 +66,8 @@
 			</items>
 		</ba>
 		
+		<!-- Precursor icon -->
+		
 		<ba f="30" id="265705001" ks="1" n="precursorIcon1">
 			<bones>
 				<b id="0">
@@ -471,7 +473,67 @@
 				<assetPos an="crate01Papaver" bi="0" l="0" r="0" se="1" sf="1" sx="1" sy="1" vf="1:1,2:0" x="3" y="-7" />
 			</items>
 		</ba>
+		
+		<!-- Alcohol Icon 01 -->
+		
+		<ba f="30" id="265709450" ks="1" n="alcoholIcon01">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265709550" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Alcohol Icon 02 -->
+		
+		<ba f="30" id="265709451" ks="1" n="alcoholIcon02">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265709551" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
 
+		<!-- Liqour anims -->
+		
+		<ba f="30" id="265709452" ks="1" n="alcoholBarrel01">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265709552" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>		
+		<ba f="30" id="265709453" ks="1,2,3,4,5" n="alcoholBarrel01Slide">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="265709553" bi="0" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="1" y="-4" />
+				<assetPos filename="265709554" bi="0" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="1" y="-4" />
+				<assetPos filename="265709555" bi="0" r="0" sx="1" sy="1" vf="1:0,4:1,5:0" x="1" y="-4" />
+				<assetPos filename="265709556" bi="0" r="0" sx="1" sy="1" vf="1:0,5:1" x="1" y="-4" />
+				<assetPos filename="265709552" bi="0" r="0" sx="1" sy="1" vf="1:1,2:0" x="1" y="-3" />
+			</items>
+		</ba>	
 
 	</animations>
 	

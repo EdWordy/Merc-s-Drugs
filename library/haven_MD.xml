@@ -50,7 +50,7 @@
 						</additionaFullLit>
 						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
 							<produces>
-								<l advPowerUsage="1.0" basicPowerUsage="1.0" product="265703129" suction="false" valuePerSec="1">
+								<l advPowerUsage="5.0" basicPowerUsage="1.0" product="265703129" suction="false" valuePerSec="1">
 									<heat temp="Low" type="HeatTo" />
 								</l>
 							</produces>
@@ -126,7 +126,130 @@
 			</objectInfo>
 		</me>
 		
-
+		<!-- Autostill -->
+		
+		<me _annotation="Autostill" alternateY="false" costGroup="875" ec="4" mid="265709000" nonSymmetrical="false" offsetRot="R0">
+			<data>
+				<l eid="1" gridOffX="0" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="dLabFB3" flx="false" />
+								<r90 aid="dLabFB1" flx="false" />
+								<r180 aid="dLabBB7" flx="false" />
+								<r270 aid="dLabBB9" flx="false" />
+								<tasks>
+									<l dir="D7" fireEvent="83:3" gridOffX="0" gridOffY="-1" setStateInUse="false" task="StandWork" usage="Both">
+										<r0offset charOffX="0" charOffY="0" />
+										<r180offset charOffX="0" charOffY="0" />
+									</l>
+								</tasks>
+								<eventListener>
+									<events>
+										<l event="83:3" onEnter="true" onLeave="false">
+											<switchState to="InUse" />
+										</l>
+									</events>
+								</eventListener>
+							</l>
+							<l playAnimation="true" state="InUse">
+								<r0 aid="dLabFB3" flx="false" />
+								<r90 aid="dLabFB1" flx="false" />
+								<r180 aid="dLabBB7" flx="false" />
+								<r270 aid="dLabBB9" flx="false" />
+								<eventListener>
+									<events>
+										<l event="83:3" onEnter="false" onLeave="true">
+											<switchState to="Standby" />
+										</l>
+									</events>
+								</eventListener>
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="itemFabricatorFB1Lights" flx="false" />
+							<r90 aid="null" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<features addFacilityIcons="false" inUseState="true" noPressureDmg="false" normalState="true" produceInNormal="false">
+							<produces>
+								<l advPowerUsage="2.5" basicPowerUsage="1.0" product="265709200" suction="false" valuePerSec="1">
+									<heat temp="Low" type="HeatTo" />
+								</l>
+							</produces>
+							<compostbins compostBins="4" />
+							<stateWatchdog autoproduce="false" />
+							<noiseAndComfort category="ObjectId" onlyWhenInuse="false">
+								<noise ignoreZoomLevel="false" noise="10.0">
+									<audio auid="null" />
+								</noise>
+								<radiusBeauty leisure="-10" radius="4" roomDrop="2" sleep="-20" work="-6" />
+							</noiseAndComfort>
+						</features>
+						<boxHatch boxX="23" boxY="6" flipR90="true" in="true" out="false" type2="false" x="23" y="6">
+							<activate activateOffX="0" activateOffY="-1" />
+							<r90Pos boxX="-15" boxY="2" x="-15" y="2" />
+						</boxHatch>
+						<commonPower />
+					</element>
+				</l>
+				<l eid="2" gridOffX="1" gridOffY="0" layer="0" type="Object">
+					<element id="0" lightValue="High" renderOnFloor="false" userTogglable="false" walkGridCost="255">
+						<definedStates>
+							<l playAnimation="false" state="Standby">
+								<r0 aid="dLabFF3" flx="false" />
+								<r90 aid="dLabFF1" flx="false" />
+								<r180 aid="dLabBF7" flx="false" />
+								<r270 aid="dLabBF9" flx="false" />
+							</l>
+							<l playAnimation="true" state="InUse">
+								<r0 aid="dLabFF3" flx="false" />
+								<r90 aid="dLabFF1" flx="false" />
+								<r180 aid="dLabBF7" flx="false" />
+								<r270 aid="dLabBF9" flx="false" />
+							</l>
+						</definedStates>
+						<additionaFullLit atInuse="true" atNoPower="false" atStandby="true" mirX="0" mirY="0" x="0" y="0">
+							<r0 aid="itemFabricatorFF1Lights" flx="false" />
+							<r90 aid="null" flx="false" />
+							<r180 aid="null" flx="false" />
+							<r270 aid="null" flx="false" />
+						</additionaFullLit>
+						<boxHatch boxX="18" boxY="3" flipR90="true" in="false" out="true" type2="false" x="18" y="3">
+							<activate activateOffX="0" activateOffY="-1" />
+						</boxHatch>
+					</element>
+				</l>
+			</data>
+			<linked>
+				<l damageGroup="0" eid="4" gridOffX="1" gridOffY="-1" id="899" layer="0" rot="R0" />
+			</linked>
+			<events>
+				<l eid="3" name="work" weid="0" />
+			</events>
+			<objectInfo buildInstant="false" debugOnly="false" disableAirlockTest="false" disableBuildTest="false" disableRotation="false" placeInMenu="6" randomRot="false" systemPoints="0" viewMode="Normal">
+				<cu>
+					<groups>
+						<l buildTools="20" rep="875">
+							<customPrice>
+								<l _annotation="Techblock" elementId="930" howMuch="2" />
+								<l _annotation="Infrablock" elementId="162" howMuch="3" />
+							</customPrice>
+						</l>
+					</groups>
+				</cu>
+				<name tid="265709001" />
+				<desc tid="265709002" />
+				<guiIcon aid="drugLabIcon" />
+				<subCat id="1510" />
+				<restrictions>
+					<l gridX="1" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+					<l gridX="0" gridY="0" sizeX="1" sizeY="1" type="Floor" />
+				</restrictions>
+				<difficultyLevel level="3" skill="Construction" />
+			</objectInfo>
+		</me>
 	
 	</Element>
 
@@ -209,7 +332,7 @@
 			
 				<!--
 			
-				This enables the ate human meat mood buff, m="1" for monstermeat
+				This enables the ate human meat mood buff, m="1" for monstermeat, a="1" for alcohol
 			
 				<foodtype h="1" />   
 			
@@ -232,6 +355,30 @@
 				<l side="Military" />
 			</contraband>
 		</product>
+		
+		<!-- Spirits product def -->
+
+		<product _annotation="Spirits" eid="265709100" elementType="Defined" item="265709651" type="Elementary">
+			<name tid="265709354" />
+			<desc tid="265709356" />
+			<GUIAnimation aid="alcoholIcon01" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="5.0" vitamins="2" useByDefaultValue="0">
+				<foodtype a="1" />   
+			</edible>
+		</product>	
+		
+		<!-- Grain Alcohol product def -->
+
+		<product _annotation="Grain Alcohol" eid="265709102" elementType="Defined" item="265709651" type="Elementary">
+			<name tid="265709358" />
+			<desc tid="265709360" />
+			<GUIAnimation aid="alcoholIcon02" />
+			<sort p="16" s="2" />
+			<edible canBeProcessed="false" neverEat="false" rank="1.0" raw="false" sortOrder="20" toxins="5.0" vitamins="2" useByDefaultValue="0">
+				<foodtype a="1" />   
+			</edible>
+		</product>		
 		
 		<!-- Drug lab processes -->
 		
@@ -324,6 +471,52 @@
 			<desc />
 		</product>
 		
+		<!-- For use with Autostill -->
+		
+		<!-- autostill process category -->
+		
+		<product composter="true" customPriority="-1" eid="265709200" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs />
+			<products />
+			<list>
+				<processes>
+					<l _annotation="Fruits to Spirits" process="265709225" />
+					<l _annotation="Root Vegetables to Grain Alcohol" process="265709226" />
+				</processes>
+			</list>
+			<desc />
+		</product>
+		
+		<!-- Autostill processes -->
+
+		<product _annotation="Fruits to Spirits" composter="false" customPriority="-1" eid="265709225" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Fruits" consumeEvery="2" element="706" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Spirits" element="265709100" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="2" skill="Industry">
+				<custom time="60" />
+			</difficulty>
+			<desc />
+		</product>
+		
+		<product _annotation="Root Vegetables to Grain Alcohol" composter="false" customPriority="-1" eid="265709226" interactive="true" itemScrapper="false" processValue="100" scrapper="false" smelter="false" startOnly="false" type="Process">
+			<needs>
+				<l _annotation="Root Vegetables" consumeEvery="2" element="15" howMuch="1" />
+			</needs>
+			<products>
+				<l _annotation="Grain Alcohol" element="265709102" howMuch="1" produceEvery="1" />
+			</products>
+			<accidentList listId="3144" />
+			<difficulty level="2" skill="Industry">
+				<custom time="60" />
+			</difficulty>
+			<desc />
+		</product>
+		
 		<!-- Raw Papaver crop process -->
 		
 		<product _annotation="Raw Papaver crop" eid="265708200" type="Crop">
@@ -386,7 +579,6 @@
 			<difficulty level="3" skill="Farming" />
 			<desc tid="62265708302" />
 		</product>
-
 
 		<!-- Raw Papaver -->
 		
@@ -582,7 +774,34 @@
 			</storable>
 			<offset x="0" y="3" />
 		</item>
+
+		<!-- Alcohol item and anims -->
 		
+		<item _annotation="Alcohol item" eid="265709650" handness="TwoHand" mid="265709651">
+			<anims>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="alcoholBarrel01" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="alcoholBarrel01" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="alcoholBarrel01" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="alcoholBarrel01" />
+				</l>
+				<l dir="D6" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+					<animation aid="alcoholBarrel01" />
+				</l>
+			</anims>
+			<storable>
+				<slide cutTop="0" frames="5" slideX="0" slideY="0">
+					<slideAnim aid="alcoholBarrel01Slide" />
+				</slide>
+			</storable>
+			<offset x="0" y="3" />
+		</item>		
 	
 	</Item>	
 	
@@ -736,6 +955,38 @@
 			</rateAffects>
 			<spawns>
 				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="25">
+					<!-- Addiction -->
+					<condition condition="265704100" />
+				</l>
+			</spawns>
+		</condition>
+		
+			<!-- Drank Alcohol condition -->
+			
+		<condition _annotation="Drank alcohol" addToLog="true" color="Auto" displayOnScreen="false" id="265709150" meta="Non" onlyOne="false" stackable="true">
+			<name tid="265709350" />
+			<desc tid="265709352" />
+			<applicableTo h="1" />
+			<recoverability>
+				<healOneLevel timeUnit="50.0" />
+			</recoverability>
+			<moodAffects>
+				<l change="12" type="Mood" />
+				<l change="-2" type="Safety" />
+			</moodAffects>
+			<rateAffects>
+				<l change="2" type="AccidentRate" />
+				<l change="-2" type="WorkSpeed" />
+			</rateAffects>
+			<triggers>
+				<onSignals>
+					<l s="19" t="100">
+						<l max="1" min="1" />
+					</l>
+				</onSignals>
+			</triggers>
+			<spawns>
+				<l afterLevel="0" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="5">
 					<!-- Addiction -->
 					<condition condition="265704100" />
 				</l>

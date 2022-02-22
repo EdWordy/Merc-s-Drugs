@@ -137,10 +137,50 @@
 	<crop_papaver id="265708300" pid="265708301">
 		<EN>Raw Papaver</EN>
 	</crop_papaver>
+	
 	<crop_papaver_desc id="265708302" pid="265708303">
 		<EN>The fruits of papaver are an efficient pain medicication and are traded all over the galaxy for their medicinal properties.</EN>
 	</crop_papaver_desc>
 	
+	<!-- Autostill tooltips -->
+	
+	<object_autostill_name id="265709001" pid="265709002">
+		<EN>Autostill</EN>
+	</object_autostill_name>
+	
+	<object_autostill_desc id="265709003" pid="265709004">
+		<EN>This automatic still enables the creation of various alcohols and liqours.</EN>
+	</object_autostill_desc>
+	
+	<!-- Drank Alcohol condition -->
+	
+	<condition_drank_alcohol_01 id="265709350" pid="265709351">
+		<EN>Drank Alcohol</EN>
+	</condition_drank_alcohol_01>
+	
+	<condition_drank_alcohol_01_desc id="265709352" pid="265709353">
+		<EN>Hey hey now, you're the funny looking one. *hiccup*.</EN>
+	</condition_drank_alcohol_01_desc>
+	
+	<!-- Grain Alcohol tooltips -->
+	
+	<resource_alcohol_01_name id="265709354" pid="265709355">
+		<EN>Spirits</EN>
+	</resource_alcohol_01_name>
+	
+	<resource_alcohol_01_desc id="265709356" pid="265709357">
+		<EN>Sweetened liqours made from fruits. Lower in alcohol content but more drinkable.</EN>
+	</resource_alcohol_01_desc>
+	
+	<!-- Grain Alcohol tooltips -->
+	
+	<resource_alcohol_02_name id="265709358" pid="265709359">
+		<EN>Grain Alcohol</EN>
+	</resource_alcohol_02_name>
+	
+	<resource_alcohol_02_desc id="265709360" pid="265709361">
+		<EN>Liqour made from root vegetables. Often strong, and heady with earthy flavours.</EN>
+	</resource_alcohol_02_desc>	
 	
 	
 </t>
